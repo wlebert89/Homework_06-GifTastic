@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+#gif-display {
+    color: #eee;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    overflow: scroll;
+    background: #222;
+    border: solid 3px #eee;
+    border-radius: 10px;
+}
+
+.gif-container {
+    margin: 20px;
+}
+
+.gif {
+    border: solid 3px #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.gif-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: #eee;
+    font-size: 16px;
+    margin: 5px;
+}
