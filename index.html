@@ -7,22 +7,25 @@
     <title>GIFS</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Eater|Nosifer|Smythe" rel="stylesheet">
 </head>
 
 <body>
     <div id="wrapper">
-        <h1>GIFS</h1>
+        <div id="header">
+            <h1>Horror GIF Gallery</h1>
+        </div>
         <br>
         <div id="button-display"></div>
         <br>
         <form id="gif-form">
-            <label for="gif-input">Add a button</label>
-            <input type="text" id="gif-input"><br>
-        
+            <label for="gif-input">Add a keyword</label>
+            <input type="text" id="gif-input">
             <input id="add-button" type="submit" value="Submit">
         </form>
         <br>
-        <div id="gif-display"></div>
+        <div id="gif-display">
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
